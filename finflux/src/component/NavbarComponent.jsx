@@ -67,42 +67,42 @@ function NavScrollExample() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="#action1">
+              <Nav.Link href="#action1 " className='border-start'>
                 Home
-                <span className='ms-2'>
+                <span className='ms-2 '>
                   <AiFillHome />
                 </span>
               </Nav.Link>
 
-              <Nav.Link href="#action1">
+              <Nav.Link href="#action1" className='border-start'>
                 News
                 <span className='ms-2'>
                   <AiOutlinePaperClip />
                 </span>
               </Nav.Link>
 
-              <Nav.Link href="#action1">
+              <Nav.Link href="#action1" className='border-start'>
                 Portfolio
                 <span className='ms-2'>
                   <AiOutlineSlack />
                 </span>
               </Nav.Link>
 
-              <Nav.Link href="#action1">
+              <Nav.Link href="#action1" className='border-start'>
                 ALL STAT
                 <span className='ms-2'>
                   <AiFillControl />
                 </span>
               </Nav.Link>
 
-              <Nav.Link href="#action1">
+              <Nav.Link href="#action1" className='border-start'>
                 Alert
                 <span className='ms-2'>
                   <AiOutlineAlert />
                 </span>
               </Nav.Link>
 
-              <Nav.Link href="#action2">
+              <Nav.Link href="#action2" className='border-start'>
                 Account
                 <span className='ms-2'>
                   <AiOutlineUser />
