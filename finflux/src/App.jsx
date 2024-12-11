@@ -5,15 +5,17 @@ import './App.css'
 import Getdata from './component/Getdata'
 import NavScrollExample from './component/NavbarComponent'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MainComponent from './component/MainComponent'
 
 
 function App() {
   const [count, setCount] = useState(0)
   
   return (
-   
+   <>
     <NavScrollExample/>
-      
+    <MainComponent/>
+    </>
 
       
    
